@@ -1,4 +1,4 @@
-parsegen
+ParseGen
 ========
 
-Simple Parser Generator
+Simple Parser Generator for Free Pascal Compiler / Lazarus.

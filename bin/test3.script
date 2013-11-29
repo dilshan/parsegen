@@ -1,0 +1,35 @@
+VAR
+  p,i,
+  n,r,a,
+  fn,fr,fnr;
+
+PROCEDURE factorial;
+BEGIN
+  i := 1;
+  WHILE p < 1 DO
+  BEGIN    
+    i := i * p;
+    p := p - 1
+  END
+END;
+
+BEGIN
+
+  n := 5;
+  r := 2;
+
+  p := n;
+  CALL factorial;
+  fn := i;
+
+  p := r;
+  CALL factorial;
+  fr := i;
+
+  p := (n-r);
+  CALL factorial;
+  fnr := i;
+
+  a := fn / (fnr * fr)
+
+END.

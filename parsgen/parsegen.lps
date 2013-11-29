@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="parsegen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="parsegen"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="104"/>
+        <UsageCount Value="66"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uparsgen.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uParsGen"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="753"/>
+        <CursorPos X="17" Y="781"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="upassgen.pas"/>
+        <UnitName Value="uPassGen"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="338"/>
+        <CursorPos X="78" Y="374"/>
+        <UsageCount Value="65"/>
+      </Unit2>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="parsegen.pas"/>
+        <Caret Line="88" Column="33" TopLine="4"/>
+      </Position1>
+      <Position2>
+        <Filename Value="parsegen.pas"/>
+        <Caret Line="29" Column="17" TopLine="4"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uparsgen.pas"/>
+        <Caret Line="352" Column="22" TopLine="337"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uparsgen.pas"/>
+        <Caret Line="707" Column="45" TopLine="673"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

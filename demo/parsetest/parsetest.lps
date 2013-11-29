@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="parsetest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="parsetest"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="21"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="test.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="test"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="122"/>
+        <CursorPos X="32" Y="151"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uParsProc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="21"/>
+        <UsageCount Value="32"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="upassproc.pas"/>
+        <UnitName Value="upassproc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="128"/>
+        <CursorPos X="61" Y="60"/>
+        <UsageCount Value="19"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="test1.pas"/>
+        <UnitName Value="test1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="7" Y="26"/>
+        <UsageCount Value="19"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="193" Column="1" TopLine="179"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="194" Column="1" TopLine="179"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="195" Column="1" TopLine="179"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="205" Column="1" TopLine="192"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="211" Column="1" TopLine="192"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="213" Column="1" TopLine="192"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="217" Column="1" TopLine="196"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="218" Column="1" TopLine="197"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="168" Column="11" TopLine="148"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="172" Column="1" TopLine="150"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="173" Column="1" TopLine="151"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="176" Column="1" TopLine="154"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="192" Column="1" TopLine="180"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="193" Column="1" TopLine="180"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="194" Column="1" TopLine="180"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="195" Column="1" TopLine="180"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="205" Column="1" TopLine="184"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="211" Column="1" TopLine="198"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="76" Column="1" TopLine="62"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="63" Column="1" TopLine="58"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="64" Column="1" TopLine="58"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="69" Column="1" TopLine="58"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="70" Column="1" TopLine="58"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="71" Column="1" TopLine="58"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="77" Column="1" TopLine="58"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="217" Column="1" TopLine="205"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="218" Column="1" TopLine="205"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="162" Column="1" TopLine="148"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="172" Column="1" TopLine="150"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\util\uparsproc.pas"/>
+        <Caret Line="173" Column="1" TopLine="151"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="Sym"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

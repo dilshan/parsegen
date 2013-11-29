@@ -1,0 +1,34 @@
+function $CLASSNAME.ExpectSymbol(S: String) : Boolean;
+begin
+	result := ParsProc.ExpectSymbol(S);
+end;
+
+function $CLASSNAME.AcceptSymbol(S : String; b: Boolean) : Boolean;
+begin
+	result := ParsProc.AcceptSymbol(S, b);
+end; 
+
+procedure $CLASSNAME.RaiseError(I : Integer);
+begin
+	ParsProc.RaiseError(I);
+end;
+
+procedure $CLASSNAME.SkipToNextLine();
+begin
+	ParsProc.NextLine();
+end;
+
+procedure $CLASSNAME.Exec();
+begin
+	ParsProc := TParsProc.Create(false, Src);
+	ParsProc.SetLineComment($COMMENTSYMBOL);
+	MapKeyWordList();
+	
+	ParsProc.GetNextSymbol;	
+	$MAINFUNC;
+end;
+
+procedure $CLASSNAME.AssignSource(S : String);
+begin
+	Src := S;
+end;

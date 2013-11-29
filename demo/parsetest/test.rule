@@ -1,0 +1,142 @@
+#main starting point
+define: main
+  block  "."
+end
+
+#code block style
+define: block
+
+  optional: "const"
+    ident "=" number
+	loop: ","
+	  ident "=" number
+	end
+	";"
+  end
+  
+  optional: "var"
+    ident
+	loop: ","
+		ident
+	end
+	";"
+  end
+  
+  loop: "procedure"
+    ident  ";" block  ";"
+  end
+  statement
+  
+end
+
+define: statement
+
+  start-case: ident
+    ":=" expression
+  end
+  
+  next-case: "call"
+    ident
+  end
+  
+  next-case: "begin"
+    repeat:
+	    statement
+	  for-all: ";"
+	  "end"
+  end
+  
+  next-case: "if"
+    condition 
+	  "then"
+    statement	
+  end
+  
+  next-case: "while"
+    condition "do"
+    statement	
+  end
+   
+  stop-case: ~error(1)
+  end
+  
+end
+
+define: condition 
+
+  start-case: "odd"
+    expression
+  end
+  
+  other-case: expression
+    "=","#","<","<=",">",">=" expression
+  end
+ 
+end
+
+define: expression
+
+	optional: "-","+"
+	end	
+	
+	term	
+	loop: "-","+"
+	  term
+	end
+	
+end
+
+define: term
+
+  factor   
+  loop: "*","/"
+    factor
+  end
+  
+end
+
+define: factor
+
+  start-case: ident
+  end
+  
+  next-case: number
+  end
+  
+  next-case: "("
+    expression ")"
+  end
+  
+  stop-case: ~error(1)
+  end
+  
+end
+
+~element("function ident() : Boolean;")
+inline-start:
+function TTest.ident() : Boolean;
+begin
+  result := true;
+  result := result and not ParsProc.IsStringIsKeyword(ParsProc.GetSymbol);
+  result := result and ParsProc.IsAlphaNumeric(ParsProc.GetSymbol[1]);  
+  result := result and ParsProc.IsStringIsAlphaNumeric(ParsProc.GetSymbol);
+  
+  if(result) then
+  begin
+    ParsProc.GetNextSymbol;
+  end;
+end;
+inline-stop
+
+~element("function number() : Boolean;")
+inline-start:
+function TTest.number() : Boolean;
+begin
+  result := ParsProc.IsStringIsNumber(ParsProc.GetSymbol);
+  
+  if(result) then
+  begin
+    ParsProc.GetNextSymbol;
+  end;
+end;
+inline-stop
