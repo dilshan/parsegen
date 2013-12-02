@@ -8,21 +8,21 @@ optional: <symbol(s)> | <logical node>
 end
 
 
-loop: <symbol(s) | <logical node>
+loop: <symbol(s)> | <logical node>
 ...
 end
 
 
 repeat:
 ...
-for-all: <symbol(s) | <logical node>
+for-all: <symbol(s)> | <logical node>
 
 
-start-case: <symbol(s) | <logical node>
+start-case: <symbol(s)> | <logical node>
 ...
 end
 
-next-case : <symbol(s) | <logical node>
+next-case : <symbol(s)> | <logical node>
 ...
 end
 
@@ -31,11 +31,11 @@ stop-case: <error handling command>
 end
 
 
-start-case: <symbol(s) | <logical node>
+start-case: <symbol(s)> | <logical node>
 ...
 end
 
-other-case: <symbol(s) | node>
+other-case: <symbol(s)> | node>
 ...
 end
 
