@@ -35,7 +35,7 @@ start-case: <symbol(s)> | <logical node>
 ...
 end
 
-other-case: <symbol(s)> | node>
+other-case: <symbol(s)> | <logical node>
 ...
 end
 
