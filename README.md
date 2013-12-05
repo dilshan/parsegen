@@ -8,4 +8,4 @@ ParserGen scanner is slight DFA (deterministic finite automaton) state machine. 
 This parser generator is mainly design for  FPC / Lazarus, but it can use with Delphi with some minor changes. ParseGen is an open source software project and it is based on [GNU General Public License
  version 3](http://www.gnu.org/licenses/gpl.html).
 
-Most of the sample scripts and demo applications of this project are based on [Niklaus Writh's](http://www.inf.ethz.ch/personal/wirth) *Algorithms + Data Structures = Programs* book and *PL/0* programming language. In demo project we implement Writh's *PL/0* parser using ParseGen and it is avabile in main project bundle. 
+Most of the sample scripts and demo applications of this project are based on [Niklaus Writh's](http://www.inf.ethz.ch/personal/wirth) *Algorithms + Data Structures = Programs* book and *PL/0* programming language. In demo project we implement Writh's *PL/0* parser using ParseGen and it is available in main project bundle. 
